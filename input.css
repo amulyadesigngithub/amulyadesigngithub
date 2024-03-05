@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.montserrat-font{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.active{
+    color: whitesmoke;
+}
+/* 
+.bg-custom{
+    background-image: url('pictures/Indoor\ &\ OutDoor_Sultry\ Noodles_05.jpg');
+    background-size: cover;
+    background-position: center;
+} */
+
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index: 9999;
+    overflow-y: auto;
+    max-height: 90vh;
+    max-width: 70%; 
+    display: none; 
+}
+
+#scrollToTopBtn {
+    transition: opacity 0.3s ease;
+    
+}
+
+#scrollToTopBtn.visible {
+    opacity: 1;
+}
+
+#scrollToTopBtn:not(.visible) {
+    opacity: 0;
+    pointer-events: none;
+}
