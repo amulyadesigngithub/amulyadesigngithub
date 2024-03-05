@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Form
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxUwWIRgLrsn9bVJCdTdBIuzs7GlNxpIc2wb8NaP05TRZnggZcW925KdMg6ELlPLx4Wbg/exec' //your script link
+const scriptURL = 'https://script.google.com/macros/s/AKfycbypLHQA2ZI8ZkDYLyfG_CqvOQmJGu1MmxMF7Jmt0Ksi8gOLTdSOCEr8M1-ygObjLTAiag/exec' //your script link
 
 const form = document.forms['contact-form'] //form name
 
